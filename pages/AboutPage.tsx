@@ -31,7 +31,7 @@ const AboutPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl">
               <img 
-                src="images/about_reception.jpg" 
+                src="/images/about_reception.jpg" 
                 alt="Hotel Reception" 
                 className="w-full h-full object-cover"
               />
