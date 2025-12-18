@@ -4,12 +4,12 @@ import { X, ZoomIn } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
-  "images/gallery_1.jpg",
-  "images/gallery_2.jpg",
-  "images/gallery_3.jpg",
-  "images/gallery_4.jpg",
-  "images/gallery_5.jpg",
-  "images/gallery_6.jpg",
+  "/images/gallery_1.jpg",
+  "/images/gallery_2.jpg",
+  "/images/gallery_3.jpg",
+  "/images/gallery_4.jpg",
+  "/images/gallery_5.jpg",
+  "/images/gallery_6.jpg",
 ];
 
 const Gallery: React.FC = () => {
