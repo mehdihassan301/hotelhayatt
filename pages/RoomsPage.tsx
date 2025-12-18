@@ -21,7 +21,7 @@ const roomsData: Room[] = [
       'Keyless Access',
       'On-site Car Park'
     ],
-    image: 'images/room_standard.jpg'
+    image: '/images/room_standard.jpg'
   },
   {
     id: 'deluxe',
@@ -37,7 +37,7 @@ const roomsData: Room[] = [
       'Front Desk [24-hour]',
       'Private Check-in'
     ],
-    image: 'images/room_deluxe.jpg'
+    image: '/images/room_deluxe.jpg'
   },
   {
     id: 'twin',
@@ -53,7 +53,7 @@ const roomsData: Room[] = [
       'Cleaning Products',
       'Contactless Check-in'
     ],
-    image: 'images/room_twin.jpg'
+    image: '/images/room_twin.jpg'
   },
   {
     id: 'semi-deluxe',
@@ -69,7 +69,7 @@ const roomsData: Room[] = [
       '24-hour Security',
       'Hand Sanitizer'
     ],
-    image: 'images/room_family.jpg'
+    image: '/images/room_family.jpg'
   },
   {
     id: 'triple',
@@ -85,7 +85,7 @@ const roomsData: Room[] = [
       'Airport Transfer',
       'Individual AC'
     ],
-    image: 'images/room_suite.jpg'
+    image: '/images/room_suite.jpg'
   }
 ];
 
@@ -155,7 +155,7 @@ const RoomsPage: React.FC = () => {
          <h2 className="text-3xl font-serif font-bold text-white mb-4">Need Help Choosing?</h2>
          <p className="text-brand-100 mb-8 max-w-2xl mx-auto">Call our 24-hour front desk for assistance with your reservation or special requests.</p>
          <a href="tel:+923334294444" className="inline-block px-10 py-4 bg-white text-brand-600 font-bold uppercase tracking-widest text-sm rounded-sm hover:bg-gray-100 transition-colors shadow-xl">
-            Call +92-333-429-4444
+            Call +92-3342942444
          </a>
       </div>
     </>
